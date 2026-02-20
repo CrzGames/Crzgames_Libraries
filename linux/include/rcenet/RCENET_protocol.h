@@ -11,7 +11,7 @@
 #ifndef RCENET_PROTOCOL_H
 #define RCENET_PROTOCOL_H
 
-#include "rcenet/types.h"
+#include "rcenet/RCENET_types.h"
 
 /**
  * Enumération des limites de configuration et des caractéristiques du protocole RCENet.

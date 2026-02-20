@@ -13,16 +13,16 @@
 // Inclusions et configurations basées sur la plateforme.
 #include <stdlib.h>
 #ifdef _WIN32
-#include "rcenet/win32.h"
+#include "rcenet/RCENET_win32.h"
 #else
-#include "rcenet/unix.h"
+#include "rcenet/RCENET_unix.h"
 #endif
 
 // Inclusions des composants internes d'ENet.
-#include "rcenet/types.h"
-#include "rcenet/protocol.h"
-#include "rcenet/list.h"
-#include "rcenet/callbacks.h"
+#include "rcenet/RCENET_types.h"
+#include "rcenet/RCENET_protocol.h"
+#include "rcenet/RCENET_list.h"
+#include "rcenet/RCENET_callbacks.h"
 
 // Définitions de version d'ENet.
 #define ENET_VERSION_MAJOR 6
